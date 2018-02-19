@@ -1,6 +1,8 @@
 package com.caesar.ken.chapapp;
 
 import android.content.Intent;
+import android.os.Handler;
+import android.os.Messenger;
 import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -29,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
     private RelativeLayout activity_main;
     private FirebaseListAdapter<ChatMessage> adapter;
     FloatingActionButton fab;
+
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
